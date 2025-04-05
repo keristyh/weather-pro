@@ -1,0 +1,22 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background: lightblue;
+}
+
+ul {
+  list-style: none;
+  margin: 25px 50px 75px 30px;
+}
+
+li.weather-card {
+  padding: 25px;
+  border-bottom: solid 3px white;
+  font-size: larger;
+  list-style: none;
+}
