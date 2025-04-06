@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -6,7 +8,8 @@
 }
 
 body {
-  background: lightblue;
+  background: #a8e8f9;
+  font-family: 'Roboto', sans-serif;
 }
 
 ul {
@@ -19,4 +22,92 @@ li.weather-card {
   border-bottom: solid 3px white;
   font-size: larger;
   list-style: none;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 25px 0;
+}
+
+.search-switch {
+  display: flex;
+  gap: 10px;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+input[type="text"],
+button,
+input[type="range"] {
+  padding: 4px;
+  border: 2px solid #00377e;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+}
+
+input[type="text"] {
+  width: 250px;
+}
+
+input[type="range"] {
+  width: 100px;
+  padding: 0px;
+}
+
+button {
+  padding: 8px 15px;
+  background-color: #fff;
+  color: #00377e;
+  border: 2px solid #00377e;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #00377e;
+  color: white;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 200px;
+  height: 8px;
+  background: #ddd;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #00377e;
+  border-radius: 50%;
+  border: 2px solid white;
+  transition: transform 0.2s ease;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+}
+
+label {
+  color: #00377e;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }

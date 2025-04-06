@@ -8,7 +8,7 @@ const WeatherInfo = ({ city_name, state_code, country_code, weather, temp, wind_
                 src={`https://www.weatherbit.io/static/img/icons/${weather.icon}.png`}
                 alt={weather.description} />
             <div className="weather-text">
-                <strong>{city_name}, {state_code} {country_code}</strong><br />
+                <strong>{city_name}{state_code && /^[A-Za-z]+$/.test(state_code) ? `, ${state_code}` : ""}, {country_code}</strong><br />
                 {weather.description} | {temp}°{units === "I" ? "F" : "C"}<br />
                 Wind: {wind_spd} {units === "I" ? "mph" : "m/s"}
                 {gust != null ? <> | Gust: {gust} {units === "I" ? "mph" : "m/s "}</> : null}
