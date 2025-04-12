@@ -39,7 +39,7 @@ The following **additional** features are implemented:
 <h2>https://imgur.com/a/NbYXFFe</h2>
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with Imgur  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
