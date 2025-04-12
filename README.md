@@ -34,9 +34,7 @@ The following **additional** features are implemented:
 
 * [ ] List anything else that you added to improve the site's functionality!
 
-## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
 <h2>Link to Video Walkthrough</h2>
 <h2>https://imgur.com/a/NbYXFFe</h2>
 
